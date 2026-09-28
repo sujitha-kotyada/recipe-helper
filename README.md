@@ -147,13 +147,3 @@ Use the following `make` commands inside the `recipe-helper` folder:
 ![Workflow Diagram](assets/architecture_diagram.png)
 
 ---
-3. Verify `.gitignore` includes:
-   ```
-   .env          ← your API key — must NEVER be pushed
-   .venv/
-   __pycache__/
-   *.pyc
-   .adk/
-   ```
-
-⚠️ **NEVER push `.env` to GitHub. Your API key will be exposed publicly.**
