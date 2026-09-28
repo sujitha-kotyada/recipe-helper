@@ -147,31 +147,6 @@ Use the following `make` commands inside the `recipe-helper` folder:
 ![Workflow Diagram](assets/architecture_diagram.png)
 
 ---
-
-# 🎭 Demo Script
-
-A complete spoken presentation narration script is available in [DEMO_SCRIPT.txt](file:///c:/Users/sujit/Documents/adk-workspace/recipe-helper/DEMO_SCRIPT.txt).
-
----
-
-## Push to GitHub
-
-1. Create a new repo at https://github.com/new
-   - Name: recipe-helper
-   - Visibility: Public or Private
-   - Do NOT initialize with README (you already have one)
-
-2. In your terminal, navigate into your project folder:
-   ```bash
-   cd recipe-helper
-   git init
-   git add .
-   git commit -m "Initial commit: recipe-helper ADK agent"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/recipe-helper.git
-   git push -u origin main
-   ```
-
 3. Verify `.gitignore` includes:
    ```
    .env          ← your API key — must NEVER be pushed
